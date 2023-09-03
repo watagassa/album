@@ -3,7 +3,7 @@ import './App.css'
 import Sidebar from "./components/Sidebar";
 import ImageUploader from "./ImageUploader";
 function App() {
-  if (window.location.pathname == "/HomeScreen") {
+  if (window.location.pathname == "/") {
     return (
       <div className="App" >
         {/* uplodaer */}
